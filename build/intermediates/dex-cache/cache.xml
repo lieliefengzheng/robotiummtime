@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zhangmanying/robotiummtime/libs/robotium-solo-5.3.2-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3d08cb50d83c011f27bb6dcc65a5647a88dae461">
+        <dex dex="/Users/zhangmanying/robotiummtime/build/intermediates/pre-dexed/androidTest/debug/robotium-solo-5.3.2-SNAPSHOT-da571aa35e3c0e4e70976e1c732344945074254c.jar" />
+    </item>
+    <item
+        jar="/Users/zhangmanying/.gradle/caches/modules-2/files-2.1/com.squareup.spoon/spoon-client/1.1.9/1adb65d40c680ee8f7fe473292b43c213605735a/spoon-client-1.1.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1adb65d40c680ee8f7fe473292b43c213605735a">
+        <dex dex="/Users/zhangmanying/robotiummtime/build/intermediates/pre-dexed/androidTest/debug/spoon-client-1.1.9-b2f6da3e50faf84e6b9ff26a6284bfab6543f13d.jar" />
+    </item>
+
+</items>

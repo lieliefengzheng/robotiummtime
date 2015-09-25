@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.mtime.test" tests="1" failures="0" errors="0" skipped="0" time="21.644" timestamp="2015-09-24T07:52:47" hostname="localhost">
+  <properties />
+  <testcase name="testLogin" classname="com.mtime.test.Login" time="21.649" />
+</testsuite>

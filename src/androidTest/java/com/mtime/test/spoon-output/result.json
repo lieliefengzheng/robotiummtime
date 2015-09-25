@@ -1,0 +1,1213 @@
+{
+  "title": "Spoon Execution",
+  "started": 1443081129400,
+  "duration": 50,
+  "results": {
+    "355ABL6VNH6A": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "M355",
+        "manufacturer": "Meizu",
+        "version": "4.2.1",
+        "apiLevel": 17,
+        "language": "zh",
+        "region": "CN",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.mtime.test.Login",
+            "methodName": "testLogin"
+          },
+          {
+            "status": "PASS",
+            "duration": 21,
+            "screenshots": [
+              "/Users/zhangmanying/robotiummtime/src/androidTest/java/com/mtime/test/spoon-output/image/355ABL6VNH6A/com.mtime.test.Login/testLogin/1443081153452_gotologin.png",
+              "/Users/zhangmanying/robotiummtime/src/androidTest/java/com/mtime/test/spoon-output/image/355ABL6VNH6A/com.mtime.test.Login/testLogin/1443081155141_enterphonenumber.png",
+              "/Users/zhangmanying/robotiummtime/src/androidTest/java/com/mtime/test/spoon-output/image/355ABL6VNH6A/com.mtime.test.Login/testLogin/1443081156778_enterpassword.png",
+              "/Users/zhangmanying/robotiummtime/src/androidTest/java/com/mtime/test/spoon-output/image/355ABL6VNH6A/com.mtime.test.Login/testLogin/1443081163723_login.png"
+            ],
+            "animatedGif": "/Users/zhangmanying/robotiummtime/src/androidTest/java/com/mtime/test/spoon-output/image/355ABL6VNH6A/com.mtime.test.Login/testLogin.gif",
+            "log": [
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "09-24 15:52:24.373",
+                "mMessage": "started: testLogin(com.mtime.test.Login)"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Test-\u003eINIT",
+                "mTime": "09-24 15:52:24.383",
+                "mMessage": "启动了一个测试"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.413",
+                "mMessage": "GC_CONCURRENT freed 229K, 13% free 3036K/3464K, paused 6ms+0ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.428",
+                "mMessage": "DexOpt: --- BEGIN \u0027plugin-deploy.jar\u0027 (bootstrap\u003d0) ---"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.843",
+                "mMessage": "DexOpt: --- END \u0027plugin-deploy.jar\u0027 (success) ---"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.843",
+                "mMessage": "DEX prep \u0027/data/data/com.mtime/app_push_lib/plugin-deploy.jar\u0027: unzip in 11ms, rewrite 414ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "ImageLoader",
+                "mTime": "09-24 15:52:24.868",
+                "mMessage": "Initialize ImageLoader with configuration"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "Activity",
+                "mTime": "09-24 15:52:24.888",
+                "mMessage": "mIntent: Intent { act\u003dandroid.intent.action.MAIN flg\u003d0x10000000 cmp\u003dcom.mtime/.mtmovie.LoginActivity } mActivityInfo.applicationInfo.uid: 10066 mActivityInfo.packageName: com.mtime permission: 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.933",
+                "mMessage": "GC_CONCURRENT freed 290K, 14% free 3158K/3644K, paused 1ms+2ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.963",
+                "mMessage": "GC_FOR_ALLOC freed 146K, 13% free 3348K/3840K, paused 11ms, total 11ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:24.993",
+                "mMessage": "GC_FOR_ALLOC freed 119K, 12% free 3455K/3896K, paused 10ms, total 10ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.008",
+                "mMessage": "GC_FOR_ALLOC freed 1K, 11% free 3684K/4128K, paused 11ms, total 11ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:25.008",
+                "mMessage": "Grow heap (frag case) to 4.134MB for 368848-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12786",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.023",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 10% free 4044K/4492K, paused 13ms, total 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.048",
+                "mMessage": "GC_FOR_ALLOC freed 313K, 16% free 3977K/4704K, paused 12ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.058",
+                "mMessage": "GC_FOR_ALLOC freed 66K, 15% free 4013K/4704K, paused 8ms, total 9ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:25.058",
+                "mMessage": "Grow heap (frag case) to 4.329MB for 235096-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12786",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.073",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 15% free 4243K/4936K, paused 11ms, total 11ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.083",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 15% free 4243K/4936K, paused 11ms, total 11ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:25.083",
+                "mMessage": "Grow heap (frag case) to 4.680MB for 368848-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12786",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.098",
+                "mMessage": "GC_FOR_ALLOC freed 0K, 14% free 4603K/5300K, paused 12ms, total 12ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:25.143",
+                "mMessage": "/***********************网络请求 start************************/"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:25.143",
+                "mMessage": "请求方式--Get"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:25.143",
+                "mMessage": "请求Url--http://api.m.mtime.cn/showtime/MailExtensions.api"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.223",
+                "mMessage": "GC_CONCURRENT freed 584K, 15% free 4587K/5364K, paused 3ms+3ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "09-24 15:52:25.248",
+                "mMessage": "loaded /vendor/lib/egl/libEGL_POWERVR_SGX544_115.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "09-24 15:52:25.253",
+                "mMessage": "loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "libEGL",
+                "mTime": "09-24 15:52:25.253",
+                "mMessage": "loaded /vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "",
+                "mTime": "09-24 15:52:25.258",
+                "mMessage": "!@IMGSRV: DATE: 2013.05.22(18:30:23) | BUILDER: harpoon | \u001b[33mREVISION: 0db5d3529e1242f"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "OpenGLRenderer",
+                "mTime": "09-24 15:52:25.303",
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.308",
+                "mMessage": "GC_CONCURRENT freed 566K, 15% free 4633K/5388K, paused 2ms+4ms, total 19ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:25.323",
+                "mMessage": "onResponse:{\"mailExts\":[\"@163.com\",\"@126.com\",\"@qq.com\",\"@gmail.com\",\"@hotmail.com\",\"@yahoo.com\",\"@sina.com\",\"@sohu.com\"]}"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:25.323",
+                "mMessage": "/***********************网络请求 end success ************************/"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.368",
+                "mMessage": "GC_CONCURRENT freed 613K, 15% free 4656K/5464K, paused 2ms+3ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Test-\u003eOperation",
+                "mTime": "09-24 15:52:25.438",
+                "mMessage": "手机屏幕分辨率为:1080　*　1800"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Robotium",
+                "mTime": "09-24 15:52:25.438",
+                "mMessage": "super"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.448",
+                "mMessage": "GC_CONCURRENT freed 601K, 15% free 4672K/5468K, paused 4ms+2ms, total 26ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.558",
+                "mMessage": "GC_CONCURRENT freed 612K, 15% free 4679K/5488K, paused 2ms+1ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.648",
+                "mMessage": "GC_CONCURRENT freed 695K, 16% free 4675K/5564K, paused 2ms+3ms, total 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.648",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 6ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.713",
+                "mMessage": "GC_CONCURRENT freed 658K, 16% free 4686K/5564K, paused 1ms+3ms, total 19ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.773",
+                "mMessage": "GC_CONCURRENT freed 679K, 16% free 4677K/5564K, paused 2ms+1ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.823",
+                "mMessage": "GC_CONCURRENT freed 643K, 16% free 4686K/5564K, paused 2ms+2ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.878",
+                "mMessage": "GC_CONCURRENT freed 664K, 16% free 4678K/5564K, paused 2ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:25.943",
+                "mMessage": "GC_CONCURRENT freed 593K, 16% free 4682K/5564K, paused 1ms+1ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.033",
+                "mMessage": "GC_CONCURRENT freed 594K, 16% free 4682K/5564K, paused 3ms+1ms, total 23ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.108",
+                "mMessage": "GC_CONCURRENT freed 692K, 16% free 4683K/5568K, paused 2ms+1ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.108",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 8ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.158",
+                "mMessage": "GC_CONCURRENT freed 696K, 16% free 4678K/5568K, paused 1ms+2ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.158",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.213",
+                "mMessage": "GC_CONCURRENT freed 683K, 16% free 4688K/5568K, paused 1ms+4ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.213",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 6ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.268",
+                "mMessage": "GC_CONCURRENT freed 598K, 17% free 4675K/5568K, paused 2ms+2ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.318",
+                "mMessage": "GC_CONCURRENT freed 659K, 16% free 4687K/5568K, paused 2ms+2ms, total 15ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.368",
+                "mMessage": "GC_CONCURRENT freed 700K, 17% free 4682K/5576K, paused 1ms+1ms, total 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.368",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.418",
+                "mMessage": "GC_CONCURRENT freed 678K, 17% free 4677K/5576K, paused 1ms+1ms, total 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.483",
+                "mMessage": "GC_CONCURRENT freed 684K, 16% free 4686K/5576K, paused 1ms+1ms, total 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.483",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.543",
+                "mMessage": "GC_CONCURRENT freed 671K, 17% free 4681K/5576K, paused 1ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.608",
+                "mMessage": "GC_CONCURRENT freed 633K, 17% free 4670K/5576K, paused 1ms+4ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.683",
+                "mMessage": "GC_CONCURRENT freed 676K, 17% free 4683K/5576K, paused 2ms+3ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.733",
+                "mMessage": "GC_CONCURRENT freed 701K, 17% free 4675K/5576K, paused 2ms+2ms, total 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12845",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.733",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 5ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12848",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:26.773",
+                "mMessage": "GC_FOR_ALLOC freed 147K, 17% free 4682K/5576K, paused 12ms, total 12ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:28.053",
+                "mMessage": "baidu start action:com.mtime.run_foreground"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:28.068",
+                "mMessage": "/***********************网络请求 start************************/"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:28.068",
+                "mMessage": "请求方式--Post"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:28.068",
+                "mMessage": "请求Url--http://api.m.mtime.cn/Mobile/IsLogin.api"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12826",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:28.073",
+                "mMessage": "http:header is X-Mtime-Mobile-CheckValue:6,1443081148074,23704bd2b460444e03c31607154e08c0,360test"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12826",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:28.078",
+                "mMessage": "cookie:_mi_\u003d610521138109404311041044211160485;  expires\u003dSat, 24-Oct-2015 07:50:59 GMT;  path\u003d/;  domain\u003d.mtime.cn; loginEmail\u003d18600911947"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12826",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:28.308",
+                "mMessage": "GC_FOR_ALLOC freed 243K, 16% free 4716K/5576K, paused 14ms, total 14ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:28.313",
+                "mMessage": "onResponse:{\"success\":true,\"error\":\"\"}"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:28.313",
+                "mMessage": "/***********************网络请求 end success ************************/"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:28.313",
+                "mMessage": "baidu + check login success:"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:28.313",
+                "mMessage": "baidu, login error info:"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:33.483",
+                "mMessage": "GC_FOR_ALLOC freed 78K, 15% free 4703K/5504K, paused 33ms, total 33ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:33.513",
+                "mMessage": "Grow heap (frag case) to 11.700MB for 7257616-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:33.548",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 7% free 11791K/12592K, paused 34ms, total 34ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:33.583",
+                "mMessage": "GC_CONCURRENT freed 1K, 7% free 11791K/12592K, paused 5ms+2ms, total 34ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "09-24 15:52:34.533",
+                "mMessage": "Captured screenshot \u0027gotologin\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.178",
+                "mMessage": "GC_FOR_ALLOC freed 7217K, 14% free 4708K/5472K, paused 42ms, total 43ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:35.208",
+                "mMessage": "Grow heap (frag case) to 11.705MB for 7257616-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.228",
+                "mMessage": "GC_CONCURRENT freed \u003c1K, 7% free 11795K/12560K, paused 5ms+2ms, total 21ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12786",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.233",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 17ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.233",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 17ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.233",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12843",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:35.233",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 18ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "09-24 15:52:36.138",
+                "mMessage": "Captured screenshot \u0027enterphonenumber\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:36.793",
+                "mMessage": "GC_FOR_ALLOC freed 7215K, 14% free 4708K/5472K, paused 19ms, total 19ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:36.808",
+                "mMessage": "Grow heap (frag case) to 11.705MB for 7257616-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:36.823",
+                "mMessage": "GC_FOR_ALLOC freed \u003c1K, 7% free 11795K/12560K, paused 16ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:36.843",
+                "mMessage": "GC_CONCURRENT freed 6K, 7% free 11799K/12560K, paused 2ms+3ms, total 17ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "09-24 15:52:37.743",
+                "mMessage": "Captured screenshot \u0027enterpassword\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "sys",
+                "mTime": "09-24 15:52:37.818",
+                "mMessage": "MemTotal:        1690964 kB"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Login",
+                "mTime": "09-24 15:52:37.838",
+                "mMessage": "MemFree:          161776 kBBuffers:          123992 kBCached:           473432 kBSwapCached:            0 kBActive:           873196 kBInactive:         283752 kBActive(anon):     559672 kBInactive(anon):     1964 kBActive(file):     313524 kBInactive(file):   281788 kBUnevictable:          64 kBMlocked:               0 kBHighTotal:       1213184 kBHighFree:          11992 kBLowTotal:         477780 kBLowFree:          149784 kBSwapTotal:             0 kBSwapFree:              0 kBDirty:               256 kBWriteback:             0 kBAnonPages:        559580 kBMapped:           292404 kBShmem:              1996 kBSlab:              36392 kBSReclaimable:      14028 kBSUnreclaim:        22364 kBKernelStack:       13400 kBPageTables:        16944 kBNFS_Unstable:          0 kBBounce:                0 kBWritebackTmp:          0 kBCommitLimit:      845480 kBCommitted_AS:   18550804 kBVmallocTotal:     516096 kBVmallocUsed:       81984 kBVmallocChunk:     188420 kB"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Login",
+                "mTime": "09-24 15:52:37.933",
+                "mMessage": "processor\t: 0Cluster\t\t: CA15BogoMIPS\t: 1590.88processor\t: 1Cluster\t\t: CA15BogoMIPS\t: 1590.88processor\t: 2Cluster\t\t: CA15BogoMIPS\t: 1590.88processor\t: 3Cluster\t\t: CA15BogoMIPS\t: 1590.88Features\t: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt CPU implementer\t: 0x41CPU architecture: 7CPU variant\t: 0x2CPU part\t: 0xc0fCPU revision\t: 3CPU asv group\t: 2CPU asv version\t: 1CPU boot cluster: CA15Hardware\t: MX3Revision\t: 5410DMEM\t\t: D25Serial\t\t: 0000000000000000"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:38.813",
+                "mMessage": "GC_FOR_ALLOC freed 8289K, 59% free 6139K/14940K, paused 16ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:38.863",
+                "mMessage": "GC_CONCURRENT freed 395K, 55% free 6851K/14940K, paused 1ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:38.863",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 14ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:38.908",
+                "mMessage": "GC_CONCURRENT freed 545K, 49% free 7686K/14940K, paused 1ms+2ms, total 16ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:38.908",
+                "mMessage": "WAIT_FOR_CONCURRENT_GC blocked 13ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "checkLoading",
+                "mTime": "09-24 15:52:38.943",
+                "mMessage": "showLoadingDialog"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:38.943",
+                "mMessage": "/***********************网络请求 start************************/"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:38.943",
+                "mMessage": "请求方式--Post"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:38.943",
+                "mMessage": "请求Url--http://api.m.mtime.cn/Mobile/Login.api"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12825",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:38.948",
+                "mMessage": "params:{vcodeId\u003d, password\u003d83a8c824305d278db1a88fcf5e701b2e, email\u003d18600911947, vcode\u003d}"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12825",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:38.948",
+                "mMessage": "http:header is X-Mtime-Mobile-CheckValue:6,1443081158950,a5f1d6690593407e497d5943382e1ec1,360test"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12825",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:38.948",
+                "mMessage": "cookie:_mi_\u003d610521138109404311041044211160485;  expires\u003dSat, 24-Oct-2015 07:52:34 GMT;  path\u003d/;  domain\u003d.mtime.cn"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.078",
+                "mMessage": "onResponse:{\"success\":true,\"userId\":7780873,\"nickname\":\"全能许愿机\",\"headPic\":\"http://img32.mtime.cn/up/2013/09/27/182526.79595840_o.jpg\",\"mobile\":\"18600911947\",\"twitterId\":10128258,\"isVirtualUser\":false}"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.078",
+                "mMessage": "/***********************网络请求 end success ************************/"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "checkLoading",
+                "mTime": "09-24 15:52:39.098",
+                "mMessage": "dismissLoadingDialog"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "checkLoading",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "showLoadingDialog"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "/***********************网络请求 start************************/"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "请求方式--Get"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "请求Url--http://api.m.mtime.cn/Account/AccountDetail.api"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12828",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "http:header is X-Mtime-Mobile-CheckValue:6,1443081159120,6dcbe0345e9b45d494d58029f08d7a63,360test"
+              },
+              {
+                "mLogLevel": "ERROR",
+                "mPid": "12777",
+                "mTid": "12828",
+                "mAppName": "",
+                "mTag": "MTIME",
+                "mTime": "09-24 15:52:39.118",
+                "mMessage": "cookie:_mi_\u003d710971095106204211108044310730475;  expires\u003dSat, 24-Oct-2015 07:52:44 GMT;  path\u003d/;  domain\u003d.mtime.cn; loginEmail\u003d18600911947"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.193",
+                "mMessage": "onResponse:{\"userId\":7780873,\"userLevel\":2,\"nickname\":\"全能许愿机\",\"headPic\":\"http://img32.mtime.cn/up/2013/09/27/182526.79595840_o.jpg\",\"balance\":100,\"rechargeMax\":100000,\"bindMobile\":\"18600911947\",\"sex\":0,\"isVirtualUser\":false,\"authorizeUrl\":\"\",\"vipUrl\":\"\"}"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "MTNet",
+                "mTime": "09-24 15:52:39.193",
+                "mMessage": "/***********************网络请求 end success ************************/"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "checkLoading",
+                "mTime": "09-24 15:52:39.203",
+                "mMessage": "dismissLoadingDialog"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12777",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:39.823",
+                "mMessage": "GC_EXPLICIT freed 839K, 45% free 8254K/14940K, paused 4ms+5ms, total 48ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:43.783",
+                "mMessage": "GC_FOR_ALLOC freed 432K, 48% free 7833K/14940K, paused 63ms, total 63ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm-heap",
+                "mTime": "09-24 15:52:43.823",
+                "mMessage": "Grow heap (frag case) to 14.758MB for 7257616-byte allocation"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:43.868",
+                "mMessage": "GC_FOR_ALLOC freed 8K, 33% free 14912K/22028K, paused 40ms, total 40ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12781",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:43.888",
+                "mMessage": "GC_CONCURRENT freed \u003c1K, 33% free 14913K/22028K, paused 3ms+3ms, total 20ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "Spoon",
+                "mTime": "09-24 15:52:44.783",
+                "mMessage": "Captured screenshot \u0027login\u0027."
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:45.918",
+                "mMessage": "GC_EXPLICIT freed 7105K, 48% free 7822K/14804K, paused 9ms+11ms, total 118ms"
+              },
+              {
+                "mLogLevel": "DEBUG",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "dalvikvm",
+                "mTime": "09-24 15:52:46.003",
+                "mMessage": "GC_EXPLICIT freed \u003c1K, 48% free 7822K/14804K, paused 5ms+8ms, total 83ms"
+              },
+              {
+                "mLogLevel": "INFO",
+                "mPid": "12777",
+                "mTid": "12790",
+                "mAppName": "",
+                "mTag": "TestRunner",
+                "mTime": "09-24 15:52:46.003",
+                "mMessage": "finished: testLogin(com.mtime.test.Login)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1443081129407,
+      "duration": 21,
+      "exceptions": []
+    }
+  }
+}
